@@ -1,0 +1,6 @@
+openbe_admin:
+    resource: "@OpenbeAdminBundle/Resources/config/routing.yml"
+    prefix:   /admin
+fos_user:
+    resource: "@FOSUserBundle/Resources/config/routing/all.xml"
+
