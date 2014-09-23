@@ -35,3 +35,5 @@
 
 # Netbean project
 /nbproject
+*.lock
+
