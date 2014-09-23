@@ -32,3 +32,8 @@
 
 # Composer PHAR
 /composer.phar
+
+# Netbean project
+/nbproject
+*.lock
+
