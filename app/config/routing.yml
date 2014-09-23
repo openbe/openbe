@@ -1,3 +1,7 @@
+openbe_user:
+    resource: "@OpenbeUserBundle/Resources/config/routing.yml"
+    prefix:   /
+
 openbe_admin:
     resource: "@OpenbeAdminBundle/Resources/config/routing.yml"
     prefix:   /admin

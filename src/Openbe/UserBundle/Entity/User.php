@@ -1,14 +1,14 @@
 <?php
-// src/Openbe/AdminBundle/Entity/User.php
+// src/Openbe/UserBundle/Entity/User.php
 
-namespace Openbe\AdminBundle\Entity;
+namespace Openbe\UserBundle\Entity;
 
 use FOS\UserBundle\Model\User as BaseUser;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
  * @ORM\Entity
- * @ORM\Table(name="fos_user")
+ * @ORM\Table(name="users")
  */
 class User extends BaseUser
 {
