@@ -1,3 +1,3 @@
 openbe_admin_homepage:
     path:     /
-    defaults: { _controller: OpenbeAdminBundle:Default:index }
+    defaults: { _controller: OpenbeAdminBundle:Home:index }

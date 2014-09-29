@@ -1,3 +1,3 @@
-openbe_user_homepage:
-    path:     /hello/{name}
-    defaults: { _controller: OpenbeUserBundle:Default:index }
+openbe_user_register:
+    path:     /register
+    defaults: { _controller: OpenbeUserBundle:Registration:register }
